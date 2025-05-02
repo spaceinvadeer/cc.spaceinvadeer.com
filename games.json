@@ -287,6 +287,25 @@
                 "platformer"
             ]
         },
+                {
+            "name": "google",
+            "fName": "Google",
+            "description": "It's very glitchy but reloading always works.",
+            "image": "/assets/images/game_covers/drift_hunters.jpg",
+            "online": true,
+            "links": [
+                {
+                    "name": "CCPorted",
+                    "link": "https://ccported.github.io/google/"
+                }
+            ],
+            "tags": [
+                "racing",
+                "drifting",
+                "cars",
+                "driving"
+            ]
+        },
         {
             "name": "there_is_no_game",
             "fName": "There is no Game",
