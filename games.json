@@ -291,7 +291,7 @@
             "name": "google",
             "fName": "Google",
             "description": "It's very glitchy but reloading always works.",
-            "image": "/assets/images/game_covers/drift_hunters.jpg",
+            "image": "assets/images/game_covers/googlelogo.png",
             "online": true,
             "links": [
                 {
@@ -300,10 +300,7 @@
                 }
             ],
             "tags": [
-                "racing",
-                "drifting",
-                "cars",
-                "driving"
+                "everything"
             ]
         },
         {
