@@ -1,10 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta http-equiv="refresh" content="0; url=https://enter-anyjfwgithing-here.lrga.space/load?app=google">
+    <script>
+        window.onload = function() {
+            let randomNum = Math.floor(Math.random() * 1000000); // Generates a random number
+            let newUrl = `https://${randomNum}.lrga.space/load?app=google`;
+            window.location.href = newUrl; // Redirects to the new URL
+        };
+    </script>
     <title>Redirecting...</title>
 </head>
 <body>
-    <p>You are being redirected to <a href="https://enter-anythjdhfing-here.lrga.space/load?app=google">this page</a>. If you are not redirected in a few seconds, click the link.</p>
+    <p>If you are not redirected automatically, click <a id="redirect-link" href="#">here</a>.</p>
+    <script>
+        document.getElementById("redirect-link").onclick = function() {
+            let randomNum = Math.floor(Math.random() * 1000000);
+            this.href = `https://${randomNum}.lrga.space/load?app=google`;
+        };
+    </script>
 </body>
 </html>
