@@ -1309,7 +1309,7 @@
         {
             "name": "happy_wheels",
             "fName": "Happy Wheels",
-            "description": "Happy Wheels is a side-scrolling physics based game where you try to reach the finish line without dying.",
+            "description": "Happy Wheels is a side-scrolling physics based game where you try to reach the finish line without dying. You will have to reload the page to access the game.",
             "image": "/assets/images/game_covers/happy_wheels.jpg",
             "online": true,
             "links": [
