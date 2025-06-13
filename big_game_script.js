@@ -2272,5 +2272,4 @@ class Stats {
         );
     }
 }
-createPopup();
 init();
