@@ -999,6 +999,7 @@ function createNotif(popupData) {
     popup.appendChild(popupContent);
     document.body.appendChild(popup);
 }
+createPopup();
 function handleNewMessage(payload) {
     const { new: message } = payload;
     if (localStorage.getItem(`chat-convo-all-muted`) == 1 || localStorage.getItem(`channel-muted-${message.channel_id}`) == 1) return;
