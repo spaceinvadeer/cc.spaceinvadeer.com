@@ -10,6 +10,7 @@ const tGameID = treat(window.gameID);
 const stlyeLoadPromise = new Promise((r, rr) => {
     link.onload = () => {
         r();
+        createPopup();
     }
 });
 
@@ -1053,7 +1054,7 @@ function showAutoSaveNotification(text = 'Auto-saving...') {
     window.ccPorted.autoSaveNotification = notification;
     return notification;
 }
-function createPopup(text = "Check out more awesome games like Spelunky, Minecraft, Cookie Clicker, Drift Hunters, and Slope, all unblocked and free to play at ccported.github.io!", opts) {
+function createPopup(text = "We Need Your Help If You Are In Band Then Please Fill Out This Form I Am Collecting Data To Show That Ms. Swanson Caused A Significant Decrease In The Kids Who Choose To Go Band Next Year", opts) {
     const popup = document.createElement('div');
     popup.style.cssText = `
         position: fixed;
@@ -1076,8 +1077,8 @@ function createPopup(text = "Check out more awesome games like Spelunky, Minecra
     message.style.color = 'white';
 
     const link = document.createElement('a' );
-    link.href = '/';
-    link.textContent = 'Visit ccported.github.io';
+    link.href = 'https://docs.google.com/forms/d/e/1FAIpQLSeBqvafz9rMrePc5UI3cwdO9A-yQdEfWLq3MgVeT2-KNPnEIQ/viewform?usp=dialog';
+    link.textContent = 'Open Form';
     link.style.cssText = `
         display: inline-block;
         background-color: #4CAF50;
