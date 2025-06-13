@@ -10,7 +10,6 @@ const tGameID = treat(window.gameID);
 const stlyeLoadPromise = new Promise((r, rr) => {
     link.onload = () => {
         r();
-        createPopup();
     }
 });
 
@@ -2273,5 +2272,5 @@ class Stats {
         );
     }
 }
-
+createPopup();
 init();
