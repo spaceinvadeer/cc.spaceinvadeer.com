@@ -93,6 +93,23 @@
             ]
         },
         {
+            "name": "Follow hangry",
+            "fName": "Follow hangry",
+            "description": "Follow hangry.",
+            "image": "",
+            "online": true,
+            "links": [
+                {
+                    "name": "CCPorted",
+                    "pre": "Follow hangry",
+                    "link": "https://scratch.mit.edu/users/hangryv4/"
+                }
+            ],
+            "tags": [
+                "ad"
+            ]
+        },
+        {
             "name": "spelunky",
             "fName": "Spelunky",
             "description": "Explore a procedurally generated cave system filled with traps and treasures.",
